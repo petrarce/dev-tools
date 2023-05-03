@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/" />
-  <default revision="master" remote="origin" />
 
-  <project path="src"
-           name="petrarce/linux-environment-setup.git "/>
+  <remote name="petrarce" fetch="https://github.com/petrarce" />
 
+  <project name="linux-environment-setup" revision="master" remote="petrarce" path="sources"/>
 
 </manifest>
