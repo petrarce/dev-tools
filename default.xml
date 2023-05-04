@@ -4,7 +4,7 @@
   <remote name="petrarce" fetch="https://github.com/petrarce" />
   <remote name="github"   fetch="https://github.com" />
 
-  <project name="openembedded/openembedded-core.git" revision="master" remote="github"   path="sources" />
-  <project name="openembedded/meta-openembedded.git" revision="master" remote="github"   path="sources" />
-
+  <project name="openembedded/openembedded-core.git" revision="master" remote="github"   path="src" />
+  <project name="openembedded/meta-openembedded.git" revision="master" remote="github"   path="src/meta-openembedded" />
+  <project name="meta-qt5/meta-qt5.git"              revision="master" remote="github"   path="src/meta-qt5" />
 </manifest>
