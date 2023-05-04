@@ -2,7 +2,9 @@
 <manifest>
 
   <remote name="petrarce" fetch="https://github.com/petrarce" />
+  <remote name="github"   fetch="https://github.com" />
 
-  <project name="linux-environment-setup" revision="master" remote="petrarce" path="sources"/>
+  <project name="openembedded/openembedded-core.git" revision="master" remote="github"   path="sources" />
+  <project name="openembedded/meta-openembedded.git" revision="master" remote="github"   path="sources" />
 
 </manifest>
